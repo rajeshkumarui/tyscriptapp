@@ -1,0 +1,48 @@
+body{
+    background: #9d9ea6;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main-container img{
+    width: 10rem;
+}
+.section{
+    padding: 2rem;
+}
+.card{
+    border: 1px solid #ececec;
+    background: #c9cde6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card-footer{
+    padding: 0 0 1rem 1rem;
+}
+.card-footer p{
+    text-transform: capitalize;
+}
+
+.card:hover{
+    background-color: #9ea6d5;
+    transform: rotateZ(6deg);
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    flex-direction: column;
+}
+#form input{
+    padding: 5px;
+}
+#form button{
+    padding: 5px;
+    cursor: pointer;
+}
